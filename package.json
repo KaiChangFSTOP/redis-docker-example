@@ -1,0 +1,20 @@
+{
+  "name": "dockerandkubernetes",
+  "version": "1.0.0",
+  "description": "aa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kfclts/heysashaAPI.git"
+  },
+  "author": "KFC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "redis": "^2.8.0"
+  }
+}
