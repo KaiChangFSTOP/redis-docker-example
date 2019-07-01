@@ -28,7 +28,7 @@ services:
       - "4001:8081"
 ```
 
-## Verificaion
+## Verification
 
 ```bash
 # Start service detached
@@ -36,14 +36,14 @@ $ docker-compose up -d
 
 # List containers
 $ docker ps -a
-CONTAINER ID        IMAGE             PORTS
-538576b43210        redis             6379/tcp
-ef75cf74ffa8        visits_node-app   0.0.0.0:4001->8081/tcp
+  CONTAINER ID        IMAGE             PORTS
+  538576b43210        redis             6379/tcp
+  ef75cf74ffa8        visits_node-app   0.0.0.0:4001->8081/tcp
 
 # Exec continer
 $ docker exec -it ef75cf74ffa8 sh
-
+  /usr/app#
 # curl service name, connect to service successfully
 $ curl redis-server:6379
--ERR wrong number of arguments for 'get' command
+  -ERR wrong number of arguments for 'get' command
 ```
